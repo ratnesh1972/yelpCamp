@@ -1,0 +1,37 @@
+<% layout('layouts/boilerplate')  %>
+<div class="container mb-5">
+    <div class="row">
+        <div class="col-md-6 offset-md-3 col-xl-4 offset-xl-4">
+            <div class="card shadow">
+                <img class="card-img-top" src="https://images.unsplash.com/photo-1494545261862-dadfb7e1c13d?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1950&q=80" alt="Login">
+                <div class="card-body p-3">
+                    <form action="/register" method="POST" class="mb-3 needs-validation" novalidate>
+                        <div class="mb-3">
+                            <label for="username" class="form-label">Username</label>
+                            <input type="text" name="username" id="username" class="form-control" placeholder="Enter username" required autofocus>
+                            <div class="invalid-feedback">
+                                Please enter username!
+                            </div>
+                        </div>
+                        <div class="mb-3">
+                            <label for="email" class="form-label">Email</label>
+                            <input type="email" name="email" id="email" class="form-control" placeholder="Enter email" required>
+                            <div class="invalid-feedback">
+                                Please enter email!
+                            </div>
+                        </div>
+                        <div class="mb-3">
+                            <label for="password" class="form-label">Password</label>
+                            <input type="password" name="password" id="password" class="form-control" placeholder="Enter password"
+                                required>
+                            <div class="invalid-feedback">
+                                Please enter password!
+                            </div>
+                        </div>
+                        <input type="submit" class="btn btn-success btn-block btn-custom" value="Sign Up">
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

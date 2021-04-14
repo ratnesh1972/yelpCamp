@@ -1,0 +1,38 @@
+body{
+    height: 100vh;
+}
+.bg-white{
+    background-color: white;
+}
+.main-img{
+    max-width: 80%;
+}
+.btn-custom{
+    background: #6C63FF;
+    border: none;
+}
+.btn-custom:hover{
+    background:#473dff;
+    border: none;
+}
+.footer{
+    color: rgba(0,0,0,.55);
+}
+.navbar-light .navbar-brand {
+    color : #6C63FF;
+}
+.navbar-light .navbar-brand:hover {
+    color : #6C63FF;
+}
+
+@media screen and (min-width: 1024px) {
+    .box{
+        max-width: 60vw;
+    }
+    .description{
+        width: 50%;
+    }
+    .main-img{
+        max-width: 60%;
+    }
+  }

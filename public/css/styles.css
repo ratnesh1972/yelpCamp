@@ -1,0 +1,45 @@
+.btn-block{
+    width: 100%;
+}
+.btn-custom{
+    background: #6C63FF;
+    border: none;
+}
+.btn-custom:hover{
+    background:#473dff;
+    border: none;
+}
+.show-link{
+    color:#6C63FF;
+    text-decoration: none;
+}
+.show-link:hover{
+    color: #473dff;
+    text-decoration-line: underline;
+}
+.navbar-brand{
+    color : #6C63FF
+}
+.navbar-light .navbar-brand {
+    color : #6C63FF;
+}
+.navbar-light .navbar-brand:hover {
+    color : #6C63FF;
+}
+.main-map{
+    width: 100%;
+    height: 300px;
+    border-radius: .25rem;
+}
+.card-img-left {
+    border-top-left-radius: calc(.25rem - 1px);
+    border-bottom-left-radius: calc(.25rem - 1px);
+}
+
+@media screen and (max-width: 768px) {
+    .card-img-left {
+        border-top-left-radius: calc(.25rem - 1px);
+        border-top-right-radius: calc(.25rem - 1px);
+        border-bottom-left-radius: 0;
+    }    
+}
